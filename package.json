@@ -2,9 +2,10 @@
   "name": "ant-clashroyaleapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start.dev": "echo \"start.dev\" && nodemon -L"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
   }
 }
